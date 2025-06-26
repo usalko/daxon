@@ -1,0 +1,16 @@
+{
+  "name": "browser-tests",
+  "private": true,
+  "scripts": {
+    "test": "cypress run --spec 'cypress/integration/console/*.spec.js'",
+    "test:auth": "cypress run --spec 'cypress/integration/auth/*.spec.js'",
+    "test:enterprise": "cypress run --spec 'cypress/integration/enterprise/*.spec.js'"
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "cypress": "^10.11.0"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.13.0"
+  }
+}
