@@ -9,3 +9,6 @@ node_modules
 .idea
 .DS_Store
 *.iml
+
+# IDE specific
+.vscode
