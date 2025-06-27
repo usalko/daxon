@@ -20,14 +20,14 @@ including the web console.
 
 The web console uses the `@daxon/react-components` package, so build this dependency first.
 ```
-yarn workspace @daxon/react-components build
+npm --workspace=@daxon/react-components run build
 ```
 
 ### 3. Start development server
 
 Now we can start the web console.
 ```
-yarn workspace @daxon/web-console start
+npm --workspace=@daxon/web-console run start
 ```
 
 By default, [localhost:9999](http://localhost:9999) should display the web console.
